@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/112107025_Pratik_Kadam/expt\ 1 {C:/intelFPGA_lite/18.0/112107025_Pratik_Kadam/expt 1/halfadder.v}
+

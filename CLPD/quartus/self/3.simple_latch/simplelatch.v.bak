@@ -1,0 +1,8 @@
+module simplelatch(q,qbar);
+output reg q,qbar;
+always @()
+begin
+q<=~qbar;
+qbar<=~q;
+end
+endmodule 

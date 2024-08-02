@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural/simulation/modelsim
+vfabehave
+Z1 !s110 1700570202
+!i10b 1
+!s100 De_m@nAIHo]jnB:G6IJ^N2
+IX]E_<T2l5D<XI4;L2S:L;0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700489065
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural/fabehave.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural/fabehave.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1700570201.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural/fabehave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural/fabehave.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural}
+Z6 tCvgOpt 0
+vtestadder
+R1
+!i10b 1
+!s100 7VQ5UKe@YNLd@<mb8=f[R0
+I388=2=fll6bkd>CdgBQB=0
+R2
+R0
+w1700489364
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural/testadder.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural/testadder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1700570202.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural/testadder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.3Full adder-Behavioural/testadder.v|
+!i113 1
+R4
+R5
+R6

@@ -1,0 +1,8 @@
+|d_latch
+en => q$latch.LATCH_ENABLE
+rst => q$latch.ACLR
+in => q$latch.DATAIN
+q <= q$latch.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

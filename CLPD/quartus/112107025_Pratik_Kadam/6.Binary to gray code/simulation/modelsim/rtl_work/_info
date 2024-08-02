@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code/simulation/modelsim
+vgraycode
+Z1 !s110 1700571880
+!i10b 1
+!s100 3SJS0OWUa_dWBd7:4I^eF1
+InWz[8^bTZITOiDaHBY0270
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700571644
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code/graycode.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code/graycode.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1700571880.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code/graycode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code/graycode.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code}
+Z7 tCvgOpt 0
+vtestcount
+R1
+!i10b 1
+!s100 h8M0jIhkmZ3AXWbB7V2ea0
+IhVdFPeZn7zPQm`Z4>bOZf0
+R2
+R0
+w1700571795
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code/testcount.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code/testcount.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code/testcount.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/6.Binary to gray code/testcount.v|
+!i113 1
+R5
+R6
+R7

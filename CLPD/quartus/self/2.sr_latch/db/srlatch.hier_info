@@ -1,0 +1,7 @@
+|srlatch
+s => q.IN0
+r => qbar.IN0
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= qbar.DB_MAX_OUTPUT_PORT_TYPE
+
+

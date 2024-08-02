@@ -1,0 +1,21 @@
+|Sequence_Detector_Mealy
+clk => y~1.DATAIN
+rst => y.OUTPUTSELECT
+rst => y.OUTPUTSELECT
+rst => y.OUTPUTSELECT
+rst => y.OUTPUTSELECT
+rst => y.OUTPUTSELECT
+rst => y.OUTPUTSELECT
+in => Y.D.DATAB
+in => Selector1.IN2
+in => Y.F.DATAB
+in => Selector0.IN5
+in => q.DATAB
+in => Selector0.IN1
+in => Selector0.IN2
+in => Selector0.IN3
+in => Y.C.DATAB
+in => Selector2.IN1
+out <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+

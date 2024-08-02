@@ -1,0 +1,8 @@
+|task1
+clk => clk2.IN0
+clk => clk2.IN0
+mod => clk2.IN1
+mod => clk2.IN1
+clk2 <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+

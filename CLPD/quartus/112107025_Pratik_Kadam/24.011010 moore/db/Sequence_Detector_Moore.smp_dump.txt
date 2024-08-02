@@ -1,0 +1,10 @@
+
+State Machine - |Sequence_Detector_Moore|y
+Name y.F y.E y.G y.C y.D y.B y.A 
+y.A 0 0 0 0 0 0 0 
+y.B 0 0 0 0 0 1 1 
+y.D 0 0 0 0 1 0 1 
+y.C 0 0 0 1 0 0 1 
+y.G 0 0 1 0 0 0 1 
+y.E 0 1 0 0 0 0 1 
+y.F 1 0 0 0 0 0 1 

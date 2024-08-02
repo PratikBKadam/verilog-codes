@@ -1,0 +1,12 @@
+module jkflipflop(
+input j,k,clr,preset,clk;
+output reg q;
+output qbar;
+wire t1,t2;);
+assign qbar=~q;
+always @(posedge(clk))
+begin
+q<=~(~(j&qbar&clr)&qbar)
+qbar<=~((k&q&preset)&q)
+end
+endmodule

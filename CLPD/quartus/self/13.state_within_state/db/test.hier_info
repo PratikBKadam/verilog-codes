@@ -1,0 +1,31 @@
+|test
+clk => clk.IN2
+rst => state.OUTPUTSELECT
+rst => out.OUTPUTSELECT
+in => in.IN2
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test|state1:u1
+clk => pres1~1.DATAIN
+state_select_in => pres1~3.DATAIN
+state_out <= state_select_out.DB_MAX_OUTPUT_PORT_TYPE
+in => state_select_out.DATAB
+in => pres1.00.DATAIN
+in => nxt1.11.DATAB
+in => Selector0.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test|state2:u2
+clk => pres2~1.DATAIN
+state_select_in => pres2~3.DATAIN
+state_out <= state_select_out.DB_MAX_OUTPUT_PORT_TYPE
+in => nxt2.11.DATAB
+in => Selector0.IN1
+in => out.DATAB
+in => state_select_out.DATAB
+in => pres2.00.DATAIN
+out2 <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

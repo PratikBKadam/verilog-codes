@@ -1,0 +1,11 @@
+|muxif
+S[0] => y.OUTPUTSELECT
+S[0] => y.OUTPUTSELECT
+S[1] => y.OUTPUTSELECT
+X[0] => y.DATAA
+X[1] => y.DATAB
+X[2] => y.DATAA
+X[3] => y.DATAB
+y << y.DB_MAX_OUTPUT_PORT_TYPE
+
+

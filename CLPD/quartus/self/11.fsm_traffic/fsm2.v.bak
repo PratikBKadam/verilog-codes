@@ -1,0 +1,27 @@
+module fsmtraffic(counter,rst,clk,stay);
+input clk,rst;
+input [3:0]counter;
+output reg [3:0] stay;
+reg [1:0] current_state,next_state;
+parameter red=0,yellow=1,green=2;
+always@(rst,current_state,counter)
+begin
+if(rst) begin
+current_state<=red;
+counter<=0;
+stay<=10;
+end
+else
+case(current_state)
+red:if(counter==10 && stay==0) next_state<=green;
+else: next_state<=red;
+green:if(counter==10 && stay==0) next_state<=yellow;
+else: next_state<=green;
+yellow:if(counter==5 && stay==0) next_state<=red;
+else: next_state<=yellow;
+default: current_state<=red;
+counter<=0;
+stay<=10;
+endcase
+end
+endmodule 

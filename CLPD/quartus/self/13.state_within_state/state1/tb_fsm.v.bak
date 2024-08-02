@@ -1,0 +1,18 @@
+module tb_fsm;
+reg in,clk,state_select_in;
+wire state_out,out1;
+initial
+begin
+forever #5 clk=~clk;
+end 
+initial 
+begin
+rst=0;
+#12;
+rst=1;
+#10;
+in=0;
+#10;
+in=1;
+#10;
+end

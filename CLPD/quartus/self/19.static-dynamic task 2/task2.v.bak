@@ -1,0 +1,11 @@
+module task2;
+initial display();
+initial display();
+initial display();
+initial display();
+task display();
+integer i=0;
+i=i+1;
+$display("i=%d",i);
+endtask
+endmodule

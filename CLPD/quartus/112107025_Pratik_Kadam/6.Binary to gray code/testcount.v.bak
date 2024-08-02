@@ -1,0 +1,29 @@
+module testcount;
+reg rst,clk,preset;
+wire [3:0] out;
+graycode dut(.rst(rst),.clk(clk),.out(out),.preset(preset));
+initial begin
+clk=0;
+rst=1;
+preset=1;
+forever
+begin
+clk=~clk;
+#5;
+end
+end
+initial 
+begin
+#7;
+preset=0;
+#20;
+preset=1;
+#20;
+rst=0;
+#20;
+rst=1;
+#20
+#500;
+$stop;
+end
+endmodule

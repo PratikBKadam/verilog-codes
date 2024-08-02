@@ -1,0 +1,6 @@
+|frequency_divider
+clk => out~reg0.CLK
+rst => out~reg0.ACLR
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

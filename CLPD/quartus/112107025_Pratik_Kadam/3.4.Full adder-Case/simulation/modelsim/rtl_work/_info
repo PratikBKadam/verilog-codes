@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case/simulation/modelsim
+vfabehave
+Z1 !s110 1700570283
+!i10b 1
+!s100 a8<ab49hXDWk1ezmo=7Md3
+IbHILl_4d7Wa;J[7j5EhiY1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1693559947
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case/fabehave.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case/fabehave.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1700570283.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case/fabehave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case/fabehave.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case}
+Z7 tCvgOpt 0
+vtestfa
+R1
+!i10b 1
+!s100 a`@andj^Gic1O12eejJdU3
+IkbGGce0SY;Y4`Gj1DG:P=0
+R2
+R0
+w1693560317
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case/testfa.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case/testfa.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case/testfa.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.4.Full adder-Case/testfa.v|
+!i113 1
+R5
+R6
+R7

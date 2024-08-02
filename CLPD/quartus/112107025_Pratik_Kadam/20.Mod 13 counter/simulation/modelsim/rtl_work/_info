@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter/simulation/modelsim
+vmodthirteen
+Z1 !s110 1700579778
+!i10b 1
+!s100 mfdlg97TIgCZ@3IEPPGQ?2
+I;6f=m;3V4_[1A?zFX[eiE0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1694852375
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter/modthirteen.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter/modthirteen.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1700579777.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter/modthirteen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter/modthirteen.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter}
+Z6 tCvgOpt 0
+vtestcount
+R1
+!i10b 1
+!s100 Y0GIa7@fii^T`;[V?41PS0
+IB9m[_B7faf98k`mLCCD<G3
+R2
+R0
+w1694852152
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter/testcount.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter/testcount.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1700579778.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter/testcount.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/20.Mod 13 counter/testcount.v|
+!i113 1
+R4
+R5
+R6

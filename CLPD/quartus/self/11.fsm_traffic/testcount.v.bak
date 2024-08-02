@@ -1,0 +1,16 @@
+module testcount;
+reg clk;
+wire count;
+counter dut(.clk(clk),.count(count));
+initial 
+	begin
+		clk=0;
+		forever 
+			begin
+			clk=~clk;
+			#1;
+			end 
+		#1000: $stop;
+	end
+endmodule
+

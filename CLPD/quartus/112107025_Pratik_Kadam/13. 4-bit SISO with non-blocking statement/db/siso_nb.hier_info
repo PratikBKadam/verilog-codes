@@ -1,0 +1,13 @@
+|siso_nb
+si => regi[0].DATAIN
+rst => regi[0].ACLR
+rst => regi[1].ACLR
+rst => regi[2].ACLR
+rst => regi[3].ACLR
+clk => regi[0].CLK
+clk => regi[1].CLK
+clk => regi[2].CLK
+clk => regi[3].CLK
+so <= regi[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

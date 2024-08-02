@@ -1,0 +1,18 @@
+|muxbool
+a => y.IN0
+a => y.IN0
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+b => y.IN1
+b => y.IN1
+X[0] => y.IN1
+X[1] => y.IN1
+X[2] => y.IN1
+X[3] => y.IN1
+S[0] => ~NO_FANOUT~
+S[1] => ~NO_FANOUT~
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

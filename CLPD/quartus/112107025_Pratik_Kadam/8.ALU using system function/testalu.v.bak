@@ -1,0 +1,16 @@
+module testalu;
+reg sel,a,b;
+wire y;
+alu1 dut(.sel(sel),.a(a),.(b),.y(y));
+initial begin
+repeat(10)
+begin
+sel=$random;
+a=$random;
+b=$random;
+$display("random values at time %t,a=%b,b=%b,sel=%b and output=%b",$time,a,b,sel,y);
+#1;
+
+end
+end
+endmodule

@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector/simulation/modelsim
+vSequence_Detector
+Z1 !s110 1700545173
+!i10b 1
+!s100 0Ug2U<?Ddc<3kkQK3WDAX0
+If`XWPnI_]FRnCHQ<oSS@33
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1696495636
+8C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector/Sequence_Detector.v
+FC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector/Sequence_Detector.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1700545173.000000
+!s107 C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector/Sequence_Detector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector|C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector/Sequence_Detector.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector
+Z7 tCvgOpt 0
+n@sequence_@detector
+vtest_sequence_detector
+R1
+!i10b 1
+!s100 HJYbXOLPMaQB=g@OBL]m=3
+IC[iN<MCo<03]R8KcT>l4l3
+R2
+R0
+w1700545138
+8C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector/test_sequence_detector.v
+FC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector/test_sequence_detector.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector/test_sequence_detector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector|C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Sequence_Detector/test_sequence_detector.v|
+!i113 1
+R5
+R6
+R7

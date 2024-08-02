@@ -1,0 +1,17 @@
+|fabehave
+a => s.OUTPUTSELECT
+a => c.OUTPUTSELECT
+a => s.OUTPUTSELECT
+a => c.OUTPUTSELECT
+b => s.DATAB
+b => c.DATAA
+b => c.DATAB
+b => s.DATAA
+b => s.DATAB
+b => s.DATAA
+c0 => s.OUTPUTSELECT
+c0 => c.OUTPUTSELECT
+s << s.DB_MAX_OUTPUT_PORT_TYPE
+c << c.DB_MAX_OUTPUT_PORT_TYPE
+
+

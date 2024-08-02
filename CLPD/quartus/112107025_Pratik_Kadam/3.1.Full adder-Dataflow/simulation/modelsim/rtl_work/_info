@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow/simulation/modelsim
+vfulladder
+Z1 !s110 1700569920
+!i10b 1
+!s100 dFBKm:H0a6U@T_`8CnGJC1
+IidUF[[adbgWS;DoIoGgIn2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700477426
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow/fulladder.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow/fulladder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1700569920.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow/fulladder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow/fulladder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow}
+Z7 tCvgOpt 0
+vtestadder
+R1
+!i10b 1
+!s100 WZzYDH5Ldc3eKIg?LK?E91
+Ido@Q5@4dQYbVDk;fIV^UY2
+R2
+R0
+w1692954358
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow/testadder.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow/testadder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow/testadder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/3.1.Full adder-Dataflow/testadder.v|
+!i113 1
+R5
+R6
+R7

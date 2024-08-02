@@ -1,0 +1,14 @@
+module srwithset(s,r,,preset,reset,clk,q,qbar);
+input s,r,clk,preset,reset;
+output reg q,qbar;
+if(!preset) q=1;
+if(!reset) q=0;
+else begin
+always @(posedge(clk))
+begin
+qbar=~q;
+q<=~(r|qbar);
+qbar<=~(s|q);
+end 
+end
+endmodule

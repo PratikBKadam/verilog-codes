@@ -1,0 +1,7 @@
+
+State Machine - |Sequence_Detector_Mealy|y
+Name y.C y.D y.B y.A 
+y.A 0 0 0 0 
+y.B 0 0 1 1 
+y.D 0 1 0 1 
+y.C 1 0 0 1 

@@ -1,0 +1,5 @@
+|simplelatch
+q <= qbar.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= qbar.DB_MAX_OUTPUT_PORT_TYPE
+
+

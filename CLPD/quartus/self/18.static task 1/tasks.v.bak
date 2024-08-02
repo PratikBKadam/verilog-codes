@@ -1,0 +1,23 @@
+/*
+function can only process on input to return a single value
+task is more general and can give multiple results and return them using output or inout
+task can contain contain @,posedge,etc
+task doesn't return a value but can give same result via output
+*/
+/*
+Syntax-
+
+style1-
+	task[name];
+		input [port_list];
+		inout [port_list];
+		output [port_list];
+		begin
+			[statements]
+		end
+	endtask
+style2-
+*/
+module tasks();
+
+endmodule

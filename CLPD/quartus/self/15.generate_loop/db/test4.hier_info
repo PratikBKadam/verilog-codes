@@ -1,0 +1,55 @@
+|test4
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum[0] <= ha:loop[0].u0.port2
+sum[1] <= ha:loop[1].u0.port2
+sum[2] <= ha:loop[2].u0.port2
+sum[3] <= ha:loop[3].u0.port2
+cout[0] <= ha:loop[0].u0.port3
+cout[1] <= ha:loop[1].u0.port3
+cout[2] <= ha:loop[2].u0.port3
+cout[3] <= ha:loop[3].u0.port3
+
+
+|test4|ha:loop[0].u0
+a => sum.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test4|ha:loop[1].u0
+a => sum.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test4|ha:loop[2].u0
+a => sum.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test4|ha:loop[3].u0
+a => sum.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

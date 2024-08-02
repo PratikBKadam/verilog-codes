@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/simulation/modelsim
+vtest_up_down_counter
+Z1 !s110 1700542112
+!i10b 1
+!s100 UAV8C=DZY3hJX_fh`hcPz3
+I@l>blV3eb^YeV@iJ?5@B?0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700542077
+8C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/test_up_down_counter.v
+FC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/test_up_down_counter.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1700542112.000000
+!s107 C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/test_up_down_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter|C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/test_up_down_counter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter
+Z7 tCvgOpt 0
+vUp_Down_Counter
+R1
+!i10b 1
+!s100 DS6L9@a2ZVnf2@F<6OKlS3
+I]3P]L<1Ik@L>HNN>Y7E^Y3
+R2
+R0
+w1700541793
+8C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/Up_Down_Counter.v
+FC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/Up_Down_Counter.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/Up_Down_Counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter|C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/Up_Down_Counter.v|
+!i113 1
+R5
+R6
+R7
+n@up_@down_@counter

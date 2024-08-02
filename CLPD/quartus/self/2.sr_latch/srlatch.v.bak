@@ -1,0 +1,9 @@
+module srlatch(s,r,q,qbar);
+input s,r;
+output reg q,qbar;
+always @(s,r)
+begin
+q<=~(s|qbar);
+qbar<=~(r|q);
+end
+endmodule

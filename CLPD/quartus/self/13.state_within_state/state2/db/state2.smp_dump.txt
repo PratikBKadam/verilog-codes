@@ -1,0 +1,6 @@
+
+State Machine - |state2|pres2
+Name pres2.01 pres2.11 pres2.00 
+pres2.00 0 0 0 
+pres2.01 1 0 1 
+pres2.11 0 1 1 

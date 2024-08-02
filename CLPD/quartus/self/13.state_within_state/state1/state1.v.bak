@@ -1,0 +1,32 @@
+module state1(clk1,rst1,in1,out1,y01,Y01);
+input in1,rst1,clk1;
+output out1;
+output reg [2:0] y01,Y01;
+reg [1:0] y1,Y1;
+parameter a1=2'b00,a2=2'b01,a3=2'b11;
+always @(in1,y1)
+begin
+case(y1)
+begin
+a1:
+begin
+if(in) Y1=a1;
+else Y1=a2;
+end
+a2:
+begin
+if(in) Y01=3'b100;
+else Y1=a2;
+end
+a3:
+default:Y1=a1;
+end
+always @(posedge clk1,negedge rst1)
+begin
+	if(!rst) y1<=a1;
+	else y1<=Y1;
+end
+assign out1=(y1==a3);
+assign y1=[1:0]y01;
+assign Y1=[1:0]Y01;
+endmodule

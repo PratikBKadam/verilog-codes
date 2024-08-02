@@ -1,0 +1,23 @@
+|piso
+clk => q~reg0.CLK
+clk => y[0].CLK
+clk => y[1].CLK
+clk => y[2].CLK
+clk => y[3].CLK
+rst => y[0].ACLR
+rst => y[1].ACLR
+rst => y[2].ACLR
+rst => y[3].ACLR
+rst => q~reg0.ENA
+in[0] => y[0].DATAIN
+in[1] => y.DATAB
+in[2] => y.DATAB
+in[3] => y.DATAB
+mode => y.OUTPUTSELECT
+mode => y.OUTPUTSELECT
+mode => y.OUTPUTSELECT
+mode => q.OUTPUTSELECT
+mode => y[0].ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

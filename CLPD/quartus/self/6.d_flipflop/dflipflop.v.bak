@@ -1,0 +1,9 @@
+module dflipflop(d,clk,q,qbar);
+input d,clk;
+output reg q,qbar;
+always @(posedge(clk))
+begin
+q<=d;
+assign qbar=~q;
+end 
+endmodule

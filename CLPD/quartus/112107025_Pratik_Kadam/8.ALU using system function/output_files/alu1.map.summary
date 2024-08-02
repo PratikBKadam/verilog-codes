@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Sep 08 14:11:39 2023
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : alu1
+Top-level Entity Name : alu1
+Family : MAX 10
+Total logic elements : 13
+    Total combinational functions : 13
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 12
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

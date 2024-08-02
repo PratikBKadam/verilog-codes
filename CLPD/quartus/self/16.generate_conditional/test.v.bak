@@ -1,0 +1,9 @@
+module test;
+reg b,c,d;
+initial begin
+b=1’b1;
+c=1’b0;
+#10 b=1’b0;
+end
+initial d = #25(b|c);
+endmodule

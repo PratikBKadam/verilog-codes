@@ -1,0 +1,12 @@
+
+State Machine - |test|state2:u2|pres2
+Name pres2.01 pres2.11 pres2.00 
+pres2.00 0 0 0 
+pres2.01 1 0 1 
+pres2.11 0 1 1 
+
+State Machine - |test|state1:u1|pres1
+Name pres1.01 pres1.11 pres1.00 
+pres1.00 0 0 0 
+pres1.01 1 0 1 
+pres1.11 0 1 1 

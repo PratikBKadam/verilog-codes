@@ -1,0 +1,212 @@
+|integrate
+data_in[0] => data_in[0].IN1
+data_in[1] => data_in[1].IN1
+data_in[2] => data_in[2].IN1
+data_in[3] => data_in[3].IN1
+data_in[4] => data_in[4].IN1
+data_in[5] => data_in[5].IN1
+data_in[6] => data_in[6].IN1
+data_in[7] => data_in[7].IN1
+clk => clk.IN2
+rst => rst.IN2
+start => start.IN1
+data_out[0] << Data_path:d1.port6
+data_out[1] << Data_path:d1.port6
+data_out[2] << Data_path:d1.port6
+data_out[3] << Data_path:d1.port6
+data_out[4] << Data_path:d1.port6
+data_out[5] << Data_path:d1.port6
+data_out[6] << Data_path:d1.port6
+data_out[7] << Data_path:d1.port6
+
+
+|integrate|Data_path:d1
+data_in[0] => data_in[0].IN2
+data_in[1] => data_in[1].IN2
+data_in[2] => data_in[2].IN2
+data_in[3] => data_in[3].IN2
+data_in[4] => data_in[4].IN2
+data_in[5] => data_in[5].IN2
+data_in[6] => data_in[6].IN2
+data_in[7] => data_in[7].IN2
+rst => rst.IN3
+clk => clk.IN3
+lda => lda.IN1
+ldb => ldb.IN1
+ldc => ldc.IN1
+data_out[0] <= shift_register:sc.port2
+data_out[1] <= shift_register:sc.port2
+data_out[2] <= shift_register:sc.port2
+data_out[3] <= shift_register:sc.port2
+data_out[4] <= shift_register:sc.port2
+data_out[5] <= shift_register:sc.port2
+data_out[6] <= shift_register:sc.port2
+data_out[7] <= shift_register:sc.port2
+
+
+|integrate|Data_path:d1|shift_register:sa
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+clk => out[4]~reg0.CLK
+clk => out[5]~reg0.CLK
+clk => out[6]~reg0.CLK
+clk => out[7]~reg0.CLK
+in[0] => out[0]~reg0.DATAIN
+in[1] => out[1]~reg0.DATAIN
+in[2] => out[2]~reg0.DATAIN
+in[3] => out[3]~reg0.DATAIN
+in[4] => out[4]~reg0.DATAIN
+in[5] => out[5]~reg0.DATAIN
+in[6] => out[6]~reg0.DATAIN
+in[7] => out[7]~reg0.DATAIN
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rst => out[0]~reg0.ACLR
+rst => out[1]~reg0.ACLR
+rst => out[2]~reg0.ACLR
+rst => out[3]~reg0.ACLR
+rst => out[4]~reg0.ACLR
+rst => out[5]~reg0.ACLR
+rst => out[6]~reg0.ACLR
+rst => out[7]~reg0.ACLR
+ld => out[0]~reg0.ENA
+ld => out[7]~reg0.ENA
+ld => out[6]~reg0.ENA
+ld => out[5]~reg0.ENA
+ld => out[4]~reg0.ENA
+ld => out[3]~reg0.ENA
+ld => out[2]~reg0.ENA
+ld => out[1]~reg0.ENA
+
+
+|integrate|Data_path:d1|shift_register:sb
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+clk => out[4]~reg0.CLK
+clk => out[5]~reg0.CLK
+clk => out[6]~reg0.CLK
+clk => out[7]~reg0.CLK
+in[0] => out[0]~reg0.DATAIN
+in[1] => out[1]~reg0.DATAIN
+in[2] => out[2]~reg0.DATAIN
+in[3] => out[3]~reg0.DATAIN
+in[4] => out[4]~reg0.DATAIN
+in[5] => out[5]~reg0.DATAIN
+in[6] => out[6]~reg0.DATAIN
+in[7] => out[7]~reg0.DATAIN
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rst => out[0]~reg0.ACLR
+rst => out[1]~reg0.ACLR
+rst => out[2]~reg0.ACLR
+rst => out[3]~reg0.ACLR
+rst => out[4]~reg0.ACLR
+rst => out[5]~reg0.ACLR
+rst => out[6]~reg0.ACLR
+rst => out[7]~reg0.ACLR
+ld => out[0]~reg0.ENA
+ld => out[7]~reg0.ENA
+ld => out[6]~reg0.ENA
+ld => out[5]~reg0.ENA
+ld => out[4]~reg0.ENA
+ld => out[3]~reg0.ENA
+ld => out[2]~reg0.ENA
+ld => out[1]~reg0.ENA
+
+
+|integrate|Data_path:d1|adder:a1
+a[0] => Add0.IN8
+a[1] => Add0.IN7
+a[2] => Add0.IN6
+a[3] => Add0.IN5
+a[4] => Add0.IN4
+a[5] => Add0.IN3
+a[6] => Add0.IN2
+a[7] => Add0.IN1
+b[0] => Add0.IN16
+b[1] => Add0.IN15
+b[2] => Add0.IN14
+b[3] => Add0.IN13
+b[4] => Add0.IN12
+b[5] => Add0.IN11
+b[6] => Add0.IN10
+b[7] => Add0.IN9
+out[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|integrate|Data_path:d1|shift_register:sc
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+clk => out[4]~reg0.CLK
+clk => out[5]~reg0.CLK
+clk => out[6]~reg0.CLK
+clk => out[7]~reg0.CLK
+in[0] => out[0]~reg0.DATAIN
+in[1] => out[1]~reg0.DATAIN
+in[2] => out[2]~reg0.DATAIN
+in[3] => out[3]~reg0.DATAIN
+in[4] => out[4]~reg0.DATAIN
+in[5] => out[5]~reg0.DATAIN
+in[6] => out[6]~reg0.DATAIN
+in[7] => out[7]~reg0.DATAIN
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rst => out[0]~reg0.ACLR
+rst => out[1]~reg0.ACLR
+rst => out[2]~reg0.ACLR
+rst => out[3]~reg0.ACLR
+rst => out[4]~reg0.ACLR
+rst => out[5]~reg0.ACLR
+rst => out[6]~reg0.ACLR
+rst => out[7]~reg0.ACLR
+ld => out[0]~reg0.ENA
+ld => out[7]~reg0.ENA
+ld => out[6]~reg0.ENA
+ld => out[5]~reg0.ENA
+ld => out[4]~reg0.ENA
+ld => out[3]~reg0.ENA
+ld => out[2]~reg0.ENA
+ld => out[1]~reg0.ENA
+
+
+|integrate|control_path:c1
+clk => y~1.DATAIN
+rst => y~3.DATAIN
+start => Y.s1.DATAB
+start => Selector0.IN2
+lda <= lda.DB_MAX_OUTPUT_PORT_TYPE
+ldb <= ldb.DB_MAX_OUTPUT_PORT_TYPE
+ldc <= ldc.DB_MAX_OUTPUT_PORT_TYPE
+
+

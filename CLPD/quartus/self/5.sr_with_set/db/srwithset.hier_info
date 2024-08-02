@@ -1,0 +1,14 @@
+|srwithset
+s => qbar.IN1
+r => q.IN1
+reset => q~reg0.ACLR
+reset => q.IN0
+reset => qbar~reg0.ENA
+preset => q.IN1
+preset => qbar.OUTPUTSELECT
+clk => q~reg0.CLK
+clk => qbar~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= qbar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

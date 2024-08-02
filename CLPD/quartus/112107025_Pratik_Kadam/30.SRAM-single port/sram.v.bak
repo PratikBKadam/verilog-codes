@@ -1,0 +1,23 @@
+module sram(din,addr,clk,ce,wre,out);
+input [7:0] din;
+input ce,wre,clk;
+input [4:0] addr;
+output reg [7:0] out;
+reg [7:0] data_out;
+parameter address;
+always @(*)
+begin
+if(addr=address) ce=1;
+else ce=0;
+end
+always @(*)
+begin
+if(wre) data_out=data_in;
+else data_out=data_out;
+end
+always @(posedge clk,negedge ce)
+begin
+if(!ce) out=8'bzzzzzzzz;
+else out=data_out;
+end
+endmodule

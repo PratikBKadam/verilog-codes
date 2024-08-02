@@ -1,0 +1,8 @@
+module graycode(clk,rst,preset,out);
+input clk,rst,preset;
+output [3:0] out;
+reg [3:0] count;
+assign out[0]=count[1]^count[0];
+assign out[1]=count[1]^count[2];
+assign out[2]=count[3]^count[2];
+assign out[3]=count[3];

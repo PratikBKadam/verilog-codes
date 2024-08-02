@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional/simulation/modelsim
+vmux
+!s110 1700570748
+!i10b 1
+!s100 TEHl2cR<eh4FN0`8iJY5n2
+IJd@^J9:PW<<QiSAjiNgD00
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1693557942
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional/mux.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional/mux.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1700570748.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional/mux.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional}
+Z6 tCvgOpt 0
+vtestbenchmux
+!s110 1700570749
+!i10b 1
+!s100 ^>R@VHkZLlmnem;a3IL=N1
+Ib81?Z2@^f@3galiQ@6J3I0
+R1
+R0
+w1693558193
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional/testbenchmux.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional/testbenchmux.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional/testbenchmux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.2.MUX-Conditional/testbenchmux.v|
+!i113 1
+R4
+R5
+R6

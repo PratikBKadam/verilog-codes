@@ -1,0 +1,17 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "qbar",
+					"strict" : false
+				},
+				{
+					"name" : "r",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

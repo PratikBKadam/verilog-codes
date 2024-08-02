@@ -1,0 +1,19 @@
+|fsm2
+rst => timer[0]~reg0.ACLR
+rst => timer[1]~reg0.PRESET
+rst => timer[2]~reg0.ACLR
+rst => timer[3]~reg0.PRESET
+rst => current_state~3.DATAIN
+clk => timer[0]~reg0.CLK
+clk => timer[1]~reg0.CLK
+clk => timer[2]~reg0.CLK
+clk => timer[3]~reg0.CLK
+clk => current_state~1.DATAIN
+signal[0] <= signal[0].DB_MAX_OUTPUT_PORT_TYPE
+signal[1] <= signal[1].DB_MAX_OUTPUT_PORT_TYPE
+timer[0] <= timer[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+timer[1] <= timer[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+timer[2] <= timer[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+timer[3] <= timer[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

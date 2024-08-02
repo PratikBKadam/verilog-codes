@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider/simulation/modelsim
+vfrequency_divider
+Z1 !s110 1700579379
+!i10b 1
+!s100 f]lWegW835F_WW30YJ49K3
+IJWh[J=i7`VnIbMl;NoC7U1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1699083074
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider/frequency_divider.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider/frequency_divider.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1700579379.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider/frequency_divider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider/frequency_divider.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider}
+Z7 tCvgOpt 0
+vtb
+R1
+!i10b 1
+!s100 6d6g0OhdHZjRCCS91G=oM2
+IF[CO[eQ2Y<5J7jIKXkgE83
+R2
+R0
+w1699082824
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider/tb.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider/tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/17.Frequency_Divider/tb.v|
+!i113 1
+R5
+R6
+R7

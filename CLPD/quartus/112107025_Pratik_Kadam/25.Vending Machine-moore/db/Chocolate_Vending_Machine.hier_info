@@ -1,0 +1,10 @@
+|Chocolate_Vending_Machine
+clk => y~1.DATAIN
+rst => y~3.DATAIN
+in[0] => Equal0.IN1
+in[0] => Equal1.IN0
+in[1] => Equal0.IN0
+in[1] => Equal1.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+

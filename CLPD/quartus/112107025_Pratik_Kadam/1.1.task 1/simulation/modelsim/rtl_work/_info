@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1/simulation/modelsim
+vtask1
+Z1 !s110 1722335658
+!i10b 1
+!s100 m1I?z8NPOFa_=Y6TohFRn0
+IRKoVCMCP8JKWzKc0K9ziT2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1722335585
+8G:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1/task1.v
+FG:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1/task1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1722335658.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1/task1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1|G:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1/task1.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1}
+Z7 tCvgOpt 0
+vtesttask
+R1
+!i10b 1
+!s100 Q88F3W5_]>Cl1;A:C[J5A0
+Ieo9keh_5TL>;INgVF6KYJ0
+R2
+R0
+w1722335613
+8G:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1/testtask.v
+FG:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1/testtask.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1/testtask.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1|G:/pratik/Pratik IMP documents/COEP/College/VLSI/CLPD/quartus/112107025_Pratik_Kadam/1.1.task 1/testtask.v|
+!i113 1
+R5
+R6
+R7

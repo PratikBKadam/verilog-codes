@@ -1,0 +1,27 @@
+|functions
+a[0] => and2.IN0
+a[1] => and2.IN0
+a[2] => and2.IN0
+a[3] => and2.IN0
+a[4] => and2.IN0
+a[5] => and2.IN0
+a[6] => and2.IN0
+a[7] => and2.IN0
+b[0] => and2.IN1
+b[1] => and2.IN1
+b[2] => and2.IN1
+b[3] => and2.IN1
+b[4] => and2.IN1
+b[5] => and2.IN1
+b[6] => and2.IN1
+b[7] => and2.IN1
+result[0] <= and2.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= and2.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= and2.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= and2.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= and2.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= and2.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= and2.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= and2.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2/simulation/modelsim
+vsrlatch
+Z1 !s110 1693899865
+!i10b 1
+!s100 7;JZD[Q`icRhPlU<;i7:K1
+IEGTI_`ThHN50VGeMhAjaI2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1693899435
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2/srlatch.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2/srlatch.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1693899864.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2/srlatch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2/srlatch.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2}
+Z6 tCvgOpt 0
+vtestsrlatch
+R1
+!i10b 1
+!s100 k^QD;H=N8K;In=I23gQhh1
+I9:3FO_ZTHaVo_ZPAAN>in0
+R2
+R0
+w1693899692
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2/testsrlatch.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2/testsrlatch.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1693899865.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2/testsrlatch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/exp2/testsrlatch.v|
+!i113 1
+R4
+R5
+R6

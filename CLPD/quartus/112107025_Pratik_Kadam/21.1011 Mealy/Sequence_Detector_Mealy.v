@@ -1,0 +1,54 @@
+module Sequence_Detector_Mealy(clk,rst,in,q);
+	input clk,rst,in;
+	output reg q;
+	reg [1:0]Y,y;
+	parameter A=2'b00,B=2'b01,C=2'b11,D=2'b10;
+	
+	always@(in,y)
+	begin
+		case(y)
+			A:begin
+					if(in)
+						Y<=B;
+					else
+						Y<=A;
+					q<=0;
+				end
+			B:begin
+					if(in)
+						Y<=B;
+					else
+						Y<=C;
+					q<=0;
+				end
+			C:begin
+					if(in)
+						Y<=D;
+					else
+						Y<=A;
+					q<=0;
+				end
+			D:begin
+					if(in)
+						begin
+							Y<=A;
+							q<=1;
+						end
+					else
+						begin
+							Y<=C;
+							q<=0;
+						end
+				end
+		endcase
+	end
+	
+	always@(posedge clk)
+		begin
+			if(!rst)
+				y<=A;
+			else
+				y<=Y;
+		end
+endmodule
+		

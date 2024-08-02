@@ -1,0 +1,34 @@
+/*
+Syntax-
+
+
+	function [automatic] [return_type] name ([port_list]);
+	
+				[statements]
+				
+	endfunction
+
+	
+	
+[automatic] will make function reentrant and items defined dynamically allocated, 
+hence recursive functions can also be allocated
+
+function name can't be used as other variable
+*/
+
+module functions();
+function [7:0] sum;
+input [7:0] a,b;
+begin
+sum=a+b;
+end
+endfunction
+reg[7:0] result;
+reg[7:0] a,b;
+initial begin
+a=8'b01010011;
+b=8'b10101000;
+result=function(a,b);
+end
+endmodule
+ 

@@ -1,0 +1,15 @@
+module srflipflop(s,r,clk,q,qbar,err);
+input s,r,clk;
+output reg q,qbar,err;
+always @(posedge(clk))
+begin
+err=0;
+qbar=~q;
+case({s,r})
+2'b00:q<=q;
+2'b01:q<=0;
+2'b10:q<=1;
+2'b11:err=1;
+endcase
+end
+endmodule

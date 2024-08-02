@@ -1,0 +1,13 @@
+|Sequence_Detector_Moore
+clk => y~1.DATAIN
+rst => y~3.DATAIN
+in => Y.C.DATAB
+in => Y.F.DATAB
+in => Selector2.IN1
+in => Selector0.IN1
+in => Selector1.IN1
+in => Y.G.DATAB
+in => Y.E.DATAB
+q << q.DB_MAX_OUTPUT_PORT_TYPE
+
+

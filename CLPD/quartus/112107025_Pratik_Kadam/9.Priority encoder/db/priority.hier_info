@@ -1,0 +1,11 @@
+|priority
+en => Decoder0.IN0
+D[0] => Decoder0.IN4
+D[1] => Decoder0.IN3
+D[2] => Decoder0.IN2
+D[3] => Decoder0.IN1
+a <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+valid <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

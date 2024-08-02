@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/simulation/modelsim
+vMux2_1
+Z1 !s110 1700570829
+!i10b 1
+!s100 8z@n5gRTo72`HHGTc4CVW2
+IKn@K0lJfBMiN]A4W22bNM2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1694710286
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/Mux2_1.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/Mux2_1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1700570829.000000
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/Mux2_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/Mux2_1.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural}
+Z7 tCvgOpt 0
+n@mux2_1
+vmuxstruct
+R1
+!i10b 1
+!s100 GEKb137JP[C5SRM_0]R5F3
+IZI<94gYgiYPhb5XOaUUkh2
+R2
+R0
+w1700484185
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/muxstruct.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/muxstruct.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/muxstruct.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/muxstruct.v|
+!i113 1
+R5
+R6
+R7
+vtest
+R1
+!i10b 1
+!s100 =L10hj0:mX3^KV0IfAg=02
+IPVIcmXU=REm@Jjan_WSll3
+R2
+R0
+w1700484246
+8G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/test.v
+FG:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/test.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural|G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/112107025_Pratik_Kadam/4.3.MUX-Structural/test.v|
+!i113 1
+R5
+R6
+R7

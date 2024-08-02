@@ -1,0 +1,6 @@
+
+State Machine - |fsm2|current_state
+Name current_state.red current_state.green current_state.yellow 
+current_state.red 0 0 0 
+current_state.yellow 1 0 1 
+current_state.green 1 1 0 

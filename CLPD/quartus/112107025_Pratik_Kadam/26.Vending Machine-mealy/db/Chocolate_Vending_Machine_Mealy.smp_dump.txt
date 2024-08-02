@@ -1,0 +1,6 @@
+
+State Machine - |Chocolate_Vending_Machine_Mealy|y
+Name y.B y.C y.A 
+y.A 0 0 0 
+y.B 1 0 1 
+y.C 0 1 1 

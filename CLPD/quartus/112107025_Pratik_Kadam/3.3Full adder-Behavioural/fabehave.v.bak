@@ -1,0 +1,53 @@
+module fabehave(a,b,c0,s,c);
+input a,b,c0;
+output s,c;
+always @(*)
+begin
+if(c0)
+begin
+if(a)
+begin
+if(b)
+begin
+s=1'b1;
+c0=1'b1;
+end
+else
+begin
+s=1'b0;
+c0=1'b1;
+end
+end
+else
+begin
+if(b)
+begin
+end
+else
+begin
+end
+end
+end
+else
+begin
+if(a)
+begin
+if(b)
+begin
+end
+else
+begin
+end
+end
+else
+begin
+if(b)
+begin
+end
+else
+begin
+end
+end
+end
+end
+endmodule

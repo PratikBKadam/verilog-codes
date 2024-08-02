@@ -1,0 +1,51 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do Up_Down_Counter_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter {C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/Up_Down_Counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:18:32 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter" C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/Up_Down_Counter.v 
+# -- Compiling module Up_Down_Counter
+# 
+# Top level modules:
+# 	Up_Down_Counter
+# End time: 10:18:32 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter {C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/test_up_down_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:18:32 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter" C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/test_up_down_counter.v 
+# -- Compiling module test_up_down_counter
+# 
+# Top level modules:
+# 	test_up_down_counter
+# End time: 10:18:32 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  test_up_down_counter
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" test_up_down_counter 
+# Start time: 10:18:32 on Nov 21,2023
+# Loading work.test_up_down_counter
+# Loading work.Up_Down_Counter
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/test_up_down_counter.v(25)
+#    Time: 807 ps  Iteration: 0  Instance: /test_up_down_counter
+# Break in Module test_up_down_counter at C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Up_Down_Counter/test_up_down_counter.v line 25
+# End time: 10:20:38 on Nov 21,2023, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 0

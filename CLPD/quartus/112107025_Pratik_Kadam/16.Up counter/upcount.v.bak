@@ -1,0 +1,10 @@
+module upcount(rst,clk,count);
+input rst,clk;
+output reg count;
+reg[2:0] register;
+always@(posedge(clk),negedge(rst))
+begin
+if(!rst) count<=3'b000;
+else count<=count+1;
+end
+endmodule

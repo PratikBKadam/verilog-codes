@@ -1,0 +1,5 @@
+module mux(X,s,y);
+input [1:0]X,s;
+output y;
+assign y=X[1]?s:X[0];
+endmodule

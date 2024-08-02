@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at state2.v(12): always construct contains both blocking and non-blocking assignments File: G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/test/state2/state2.v Line: 12
+Warning (10268): Verilog HDL information at state1.v(12): always construct contains both blocking and non-blocking assignments File: G:/pratik/Pratik IMP documents/COEP/College/TY/CLPD/quartus/self/test/state1/state1.v Line: 12

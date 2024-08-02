@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/simulation/modelsim
+vadder
+Z1 !s110 1700573888
+!i10b 1
+!s100 4N@EnH7=IVJMX2?SD1iR10
+Ig_i^fzjInaNIB1fgPKLzg1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1700567968
+8C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/adder.v
+FC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/adder.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1700573888.000000
+!s107 C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath|C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/adder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath
+Z8 tCvgOpt 0
+vcontrol_path
+R1
+!i10b 1
+!s100 i3l]0Z5[1la18W<>i[jE92
+IbL_bh_GP]Dl5Eh4?z7ZT93
+R2
+R0
+R3
+8C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/control_path.v
+FC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/control_path.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/control_path.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath|C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/control_path.v|
+!i113 1
+R6
+R7
+R8
+vData_path
+R1
+!i10b 1
+!s100 g?P42ja_zVdlLdN`TlF<[3
+IgjGhEZ<@]Z<W>mB>ZYM@G0
+R2
+R0
+Z9 w1700567969
+8C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/Data_path.v
+FC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/Data_path.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/Data_path.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath|C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/Data_path.v|
+!i113 1
+R6
+R7
+R8
+n@data_path
+vintegrate
+R1
+!i10b 1
+!s100 iLSeje6COCW4M37e8^SSU2
+IO?4;K1Ka74Y=02gc@FA_i2
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/integrate.v
+FC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/integrate.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/integrate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath|C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/integrate.v|
+!i113 1
+R6
+R7
+R8
+vintegrate_tb
+R1
+!i10b 1
+!s100 B1Ol;Lc0cfDTXK0M=9Ll@0
+I71EIi8Yb_:_m]XSZ99kY50
+R2
+R0
+w1700573861
+8C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/integrate_tb.v
+FC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/integrate_tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/integrate_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath|C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/integrate_tb.v|
+!i113 1
+R6
+R7
+R8
+vshift_register
+R1
+!i10b 1
+!s100 bEN>>5_<2CNe9KLRO1<Ab2
+Ilai[nM]gJz[6b7@ln2Z;M0
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/shift_register.v
+FC:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/shift_register.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/shift_register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath|C:/intelFPGA_lite/18.0/112107017_Sahil_Gavankar/Adder_Datapath_Controlpath/shift_register.v|
+!i113 1
+R6
+R7
+R8

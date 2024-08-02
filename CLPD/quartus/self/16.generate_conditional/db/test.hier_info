@@ -1,0 +1,20 @@
+|test
+rst => rst.IN1
+clk => clk.IN1
+in => in.IN1
+out <= state2:u2.port4
+state_out <= state2:u2.port2
+
+
+|test|state2:u2
+rst => pres2~3.DATAIN
+clk => pres2~1.DATAIN
+state_out <= state_out.DB_MAX_OUTPUT_PORT_TYPE
+in => nxt2.11.DATAB
+in => Selector0.IN1
+in => out.DATAB
+in => state_out.DATAB
+in => pres2.00.DATAIN
+out2 <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

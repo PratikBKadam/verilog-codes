@@ -1,0 +1,15 @@
+module alu1(sel,a,b,y);
+input [3:0] sel,a,b; 
+output reg [3:0]y;
+always @(sel,a,b)
+begin
+case(sel)
+000:y=a&b;
+001:y=a|b;
+010:y=~(a&b);
+011:y=a+b;
+100:y=a^b;
+default:y=0;
+endcase
+end
+endmodule

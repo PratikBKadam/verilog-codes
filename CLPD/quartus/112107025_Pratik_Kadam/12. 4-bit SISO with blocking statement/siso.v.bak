@@ -1,0 +1,21 @@
+module siso(si,rst,clk,so);
+input rst,clk,si;
+output reg so;
+reg register[3:0];
+always @(posedge(clk),negedge(rst))
+begin
+	if(!rst) 
+	begin
+		register[3:0]=4'b0000;
+		so<=1'b0;
+	end
+	else
+	begin
+		register[0]<=si;
+		register[1]<=register[0];
+		register[2]<=register[1];
+		register[3]<=register[2];
+		so<=register[0];
+	end
+end
+endmodule

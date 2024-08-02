@@ -1,0 +1,16 @@
+|sipo
+clk => R[0].CLK
+clk => R[1].CLK
+clk => R[2].CLK
+clk => R[3].CLK
+rst => R[0].ACLR
+rst => R[1].ACLR
+rst => R[2].ACLR
+rst => R[3].ACLR
+S => R[0].DATAIN
+out[0] << R[0].DB_MAX_OUTPUT_PORT_TYPE
+out[1] << R[1].DB_MAX_OUTPUT_PORT_TYPE
+out[2] << R[2].DB_MAX_OUTPUT_PORT_TYPE
+out[3] << R[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
